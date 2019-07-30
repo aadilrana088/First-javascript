@@ -8,7 +8,28 @@
     box-sizing: border-box;
     
 }
-
+.final-score {
+    position: absolute;
+    color: #555;
+    top: 520px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    font-family: 'Lato';
+    padding: 10px;
+    width: 160px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.final-score:focus {
+    outline: none;
+}
+#dice-1 {
+    top: 120px;
+}
+#dice-2 {
+    top: 250px;
+}
 .clearfix::after {
     content: "";
     display: table;
